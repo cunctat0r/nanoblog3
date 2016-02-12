@@ -50,5 +50,10 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+end
 
 gem "codeclimate-test-reporter", group: :test, require: nil
