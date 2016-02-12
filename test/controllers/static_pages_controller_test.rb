@@ -23,5 +23,11 @@ class StaticPagesControllerTest < ActionController::TestCase
     assert_response :success
     assert_select "title", "About | #{@base_title}"
   end
+  
+  test "should get contacts" do
+    get :contacts
+    assert_response :success
+    assert_select "title", "Contacts | #{@base_title}"
+  end
 
 end
