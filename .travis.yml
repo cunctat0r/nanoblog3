@@ -14,7 +14,7 @@ script:
   - bundle exec rake
   - bundle exec rake test
 before_script:
-  - cp config/database.travis.yml config/database.yml
+  - yes | cp -rf config/database.travis.yml config/database.yml
   - psql -c 'create database nanoblog3_test' -U postgres
 
 branches:
