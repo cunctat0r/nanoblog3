@@ -4,6 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/cunctat0r/nanoblog3/badges/gpa.svg)](https://codeclimate.com/github/cunctat0r/nanoblog3)
 [![Test Coverage](https://codeclimate.com/github/cunctat0r/nanoblog3/badges/coverage.svg)](https://codeclimate.com/github/cunctat0r/nanoblog3/coverage)
 [![Issue Count](https://codeclimate.com/github/cunctat0r/nanoblog3/badges/issue_count.svg)](https://codeclimate.com/github/cunctat0r/nanoblog3)
+[![security](https://hakiri.io/github/cunctat0r/nanoblog3/master.svg)](https://hakiri.io/github/cunctat0r/nanoblog3/master)
 
 This is the sample application for the
 [*Ruby on Rails Tutorial*](http://www.railstutorial.org/)
