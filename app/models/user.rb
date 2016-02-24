@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   
   has_many :microposts
+  default_scope -> { order(created_at: :desc)}
   
   attr_accessor :remember_token, :activation_token
   
