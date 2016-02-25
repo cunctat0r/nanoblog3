@@ -15,8 +15,10 @@
 /log/*
 !/log/.keep
 /tmp
+/public/uploads/*
 
 #/config/database.yml
 
 # Ignore Spring files.
 /spring-1000/*.pid
+
