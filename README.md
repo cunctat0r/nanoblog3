@@ -12,6 +12,7 @@ by [Michael Hartl](http://www.michaelhartl.com/).
 
 To use successfully Amazon AWS S3 buckets, you need set up access policies and CORS configuration.  Default CORS configuration works for me,  and for access policy I use the following: 
 
+```
 {
 	"Version": "2012-10-17",
 	"Statement": [
@@ -27,3 +28,4 @@ To use successfully Amazon AWS S3 buckets, you need set up access policies and C
 		}
 	]
 }
+```
