@@ -10,3 +10,20 @@ This is the sample application for the
 [*Ruby on Rails Tutorial*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
+To use successfully Amazon AWS S3 buckets, you need set up access policies and CORS configuration.  Default CORS configuration works for me,  and for access policy I use the following: 
+
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:*",
+			"Resource": [
+				"arn:aws:s3:::my-bucket",
+				"arn:aws:s3:::my-bucket/*"
+			]
+		}
+	]
+}
